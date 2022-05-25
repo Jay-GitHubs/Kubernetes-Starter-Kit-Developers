@@ -15,7 +15,7 @@ spec:
       releaseName: ingress-nginx
       values: |
         controller:
-        replicaCount: 2
+        replicaCount: 3
         resources:
           requests:
             cpu: 100m
